@@ -1,0 +1,68 @@
+.bg--textfield{
+    box-sizing: border-box;
+}
+.bg--textfield>.textfield--input {
+    margin: 8px 0;
+}
+
+.bg--textfield>.textfield--input>input {
+    padding: 0 12px;
+    border: none;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0) !important;
+}
+
+.bg--textfield>.textfield--input>input:focus {
+    outline: none;
+}
+
+.bg--textfield>.textfield--input {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-self: end;
+}
+
+.bg--textfield>.textfield--input>.textfield--button {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    background-color: none;
+    border: none;
+    padding: 0 8px;
+}
+
+.bg--textfield>.textfield--error {
+    color: red;
+    /* font-family: fontbase--italic; */
+    /* font-size: 12px; */
+}
+
+.bg--textfield>.textfield--input:hover {
+    background-color: #F6F6F6;
+}
+
+.bg--textfield>.textfield--input:focus-within {
+    background-color: white;
+    border: var(--primary--cl-bg__pressed) 1px solid;
+}
+
+.bg--textfield>.textfield--input.textfield--error {
+    border: red 1px solid;
+}
+
+.textfield--readonly {
+    background-color: var(--disable--cl-tx);
+
+}
+
+.textfield--readonly>input {
+    pointer-events: none;
+}
+
+.textfield--button:active {
+    background-color: #9E9E9E;
+}

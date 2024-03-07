@@ -1,0 +1,30 @@
+
+.popup {
+    background-color: white;
+    width: 1000px;
+    border-radius: 4px;
+}
+
+.popup--header {
+    padding: 24px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.popup--buttonbox {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 12px;
+    width: 100%;
+    background-color: gainsboro;
+}
+.popup--buttonbox>.button{
+    margin: 8px;
+}
+.popup--content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 24px 24px 24px;
+}

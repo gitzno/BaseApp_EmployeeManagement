@@ -1,0 +1,142 @@
+:root {
+    --primary__color: #dddddd;
+    --second__color: #F1FFEF;
+}
+
+.table {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    overflow-y: auto;
+}
+
+.table table {
+    /* table-layout: fixed; */
+    width: 100%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table thead th {
+    background-color: #F5F5F5;
+    position: sticky;
+    text-align: left;
+    top: 0;
+    z-index: 100;
+}
+
+
+.table tr th,
+.table tr td {
+
+    padding: 0 12px;
+}
+
+.table--paging span,
+.action--chosse>span {
+    font-weight: bold;
+}
+
+/* type border row */
+
+.table--border__cell table tr td,
+.table--border__cell table tr th {
+    border: solid 1px #E0E0E0;
+}
+
+.table table tr td {
+    border-bottom: solid 1px #E0E0E0;
+}
+
+/* .table table thead{
+    padding: 200px;
+    border: solid 1px #E0E0E0;
+} */
+/* //////////////////////// */
+
+/* heigh row table */
+
+.table table tr {
+    height: 48px;
+}
+
+.table--row__verylow table tr {
+    height: 32px;
+}
+
+.table--row__verylow table tr {
+    height: 40px;
+}
+
+.table--row__high table tr {
+    height: 56px;
+}
+
+/* /////////////////////////// */
+.table table tr .td--text__center {
+    text-align: center;
+}
+
+.table table tr .td--text__right {
+    text-align: right;
+}
+
+.table table tr .cell--text__center {
+    text-align: center;
+}
+
+.cell--text__center>input {
+    accent-color: #50B83C;
+    cursor: pointer;
+    transform: scale(1.3);
+    border: #dddddd;
+}
+
+.table--paging {
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    padding: 0 20px;
+    background-color: #F5F5F5;
+    border-top: solid 1px #E0E0E0;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.table--content {
+    box-shadow: 0 3px rgba(0, 0, 0, 0.039);
+    border-radius: 4px;
+}
+
+
+/* ///action */
+.table table tr:hover {
+    background-color: #E0E0E0;
+}
+
+.table table tr td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table table .input--checked {
+    background-color: var(--second__color);
+}
+
+.pick--page {
+    display: flex;
+
+}
+
+.pick--page>div {
+    margin-left: 10px;
+}
+
+.paging--rightcontent {
+    display: flex;
+    align-items: center;
+}

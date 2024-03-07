@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: fontbase--regular;
+    src: url('../../../assets/fonts/notosans-regular.2cb88a13.woff2');
+}
+
+@font-face {
+    font-family: fontbase--bold;
+    src: url('../../../assets/fonts/notosans-bold.3ede5aff.woff2');
+}
+
+@font-face {
+    font-family: fontbase--italic;
+    src: url('../../../assets/fonts/notosans-italic.1c1aaac9.woff2');
+}
+
+@font-face {
+    font-family: fontbase--semibold;
+    src: url('../../../assets/fonts/notosans-semibold.df3e6dc4.woff2');
+}
+
+body {
+    font-family: fontbase--regular;
+    font-size: 14px;
+    color: var(--title--cl-tx);
+}
+
+.text--h1 {
+    font-family: fontbase--bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text--h2 {
+    font-family: fontbase--bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.text--h3 {
+    font-family: fontbase--bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.text--hsub {
+    font-family: fontbase--bold;
+    line-height: 18px;
+}
+
+.text--caption {
+    font-size: 13px;
+    line-height: 17px;
+}
+/* for menu and button */
+.text--body {
+    font-family: fontbase--semibold;
+    line-height: 18px;
+}
+

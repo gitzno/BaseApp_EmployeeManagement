@@ -1,0 +1,16 @@
+:root {
+    --primary--cl-bg: #50b83c;
+    --primary--cl-bg__hover: #57C841;
+    --primary--cl-bg__pressed: #409330;
+    --secondary--cl-bg: #1B1066;
+    /* --primary--cl: #B9E2B1; */
+
+    /* color for text */
+    --title--cl-tx: #000000;
+    --primary--cl-tx: #212121;
+    --secondary--cl-tx: #666666;
+    --disable--cl-tx: #9E9E9E;
+    --border--cl-tx: #E0E0E0;
+    --background--cl-tx: #F7F7F7;
+
+}
